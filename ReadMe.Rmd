@@ -8,7 +8,7 @@ output:
   html_document: default
 ---
 
-There are 3 steps to recreate the results of the paper
+There are 3 steps to recreate the results of the paper. All scripts are available at https://github.com/plloydsmith/RecBenefitsCanadaCJE.
 
 # 1. Access the data
 
