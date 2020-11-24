@@ -1,13 +1,16 @@
 ---
-title: "ReadMe: Analysis for Economic Benefits of Recreation in Canada (Lloyd-Smith, CJE)"
+title: 'ReadMe: Analysis for Economic Benefits of Recreation in Canada (Lloyd-Smith,
+  CJE)'
 author: "Pat Lloyd-Smith"
-date: "03/11/2020"
-output: html_document
+date: "November 2020"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 There are 3 steps to recreate the results of the paper
 
-1. Access the data
+# 1. Access the data
 
 The recreation data comes from the Canadian Nature Survey available here
  https://biodivcanada.chm-cbd.net/documents/canadian-nature-survey
@@ -17,7 +20,7 @@ The recreation dataset is available to download here
 
 Save the cns2012pumf.xlsx file as Raw2012Data.csv in the data/raw folder
  
-2. Clean and create data sets for analysis
+# 2. Clean and create data sets for analysis
 
 - You will need to install the following R packages
 
@@ -25,8 +28,9 @@ install.packages("pacman", "tidyverse", "mice", "fastDummies", "furrr",
 				"micemd", "randtoolbox", "rstan", "rmdcev")
 
 - Run the 1PrepareData.R script
+- Not that this script involves intensive data imputation and takes a long time to run on a desktop computer (~48 hours on a desktop computer with 32 GB RAM).
 
-3. Conduct the analysis and create all the tables/figures in paper
+# 3. Conduct the analysis and create all the tables/figures in paper
 
 - Run the 2RunAnalysis R script
 
