@@ -59,7 +59,7 @@ Computational requirements
 
 #### Summary
 
-Approximate time needed to reproduce the analyses on a standard (CURRENT YEAR) desktop machine:
+Approximate time needed to reproduce the analyses on a standard (2020) desktop machine:
 
 - [ ] <10 minutes
 - [ ] 10-60 minutes
